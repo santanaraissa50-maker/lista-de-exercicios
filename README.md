@@ -1,4 +1,24 @@
+#include<stdio.h>
+
+#include<stdlib.h>
+
+#include<locale.h>
+
+int main() {
+
+printf("\n*************************************************** ");
+
+printf("\n* Aluno: Raissa Santana Dos Santos                * ");
+
+printf("\n* Programa RSDS-14 ate RSDS-60                    * ");
+
+printf("\n*************************************************** ");
+}
+
+
+
 RSDS - 14.c
+
 
 #include <stdio.h>
 
@@ -95,6 +115,7 @@ int main() {
 RSDS -18.c
 
 #include <stdio.h>
+
 #include <string.h>
 
 int main() {
@@ -969,6 +990,7 @@ int main() {
 RSDS-57.c
 
 #include <stdio.h>
+
 #include <string.h>
 
 int main() {

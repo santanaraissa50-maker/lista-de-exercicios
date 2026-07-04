@@ -3,8 +3,9 @@ RSDS - 14.c
 #include <stdio.h>
 
 int main() {
-    int a, b, c;
 
+    int a, b, c;
+    
     printf("Tipo de Triangulo\n");
     printf("Digite os 3 lados: ");
     scanf("%d %d %d", &a, &b, &c);
@@ -23,8 +24,9 @@ int main() {
 RSDS - 15.c
 
  #include <stdio.h>
-
+ 
 int main() {
+
     int altC, largC, compC;
     int altCx, largCx, compCx;
     int total;
@@ -49,6 +51,7 @@ RSDS -16.c
 #include <stdio.h>
 
 int main() {
+
     int pedido;
 
     printf("Multiplo de 3 e/ou 5\n");
@@ -73,6 +76,7 @@ RSDS - 17.c
   #include <stdio.h>
 
 int main() {
+
     int altura;
 
     printf("Sensor do Parque\n");
@@ -94,6 +98,7 @@ RSDS -18.c
 #include <string.h>
 
 int main() {
+
     char usuario[20], senha[20];
 
     printf("Login Simples\n");
@@ -120,6 +125,7 @@ RSDS - 19.c
 #include <stdio.h>
 
 int main() {
+
     int n1, n2, n3, temp;
 
     printf("Ordem Crescente\n");
@@ -155,6 +161,7 @@ RSDS - 20.c
 #include <stdio.h>
 
 int main() {
+
     int ano;
 
     printf("Ano Bissexto\n");
@@ -175,6 +182,7 @@ RSDS - 21.c
 #include <stdio.h>
 
 int main() {
+
     int valor;
 
     printf("Positivo ou Negativo\n");
@@ -196,6 +204,7 @@ RSDS -22.c
 #include <stdio.h>
 
 int main() {
+
     int numero;
 
     printf("Par ou Impar\n");
@@ -216,6 +225,7 @@ RSDS -23.c
 #include <stdio.h>
 
 int main() {
+
     int x, y;
 
     printf("Maior de Dois Numeros\n");
@@ -235,6 +245,7 @@ RSDS -24.c
 #include <stdio.h>
 
 int main() {
+
     int idade;
 
     printf("Pode Votar?\n");
@@ -255,6 +266,7 @@ RSDS - 25.c
 #include <stdio.h>
 
 int main() {
+
     float media;
 
     printf("Notas e Aprovacao\n");
@@ -276,6 +288,7 @@ int main() {
 #include <stdio.h>
 
 int main() {
+
     int i;
 
     printf("Contar de 1 a 10\n");
@@ -292,6 +305,7 @@ RSDS-27.c
 #include <stdio.h>
 
 int main() {
+
     int num, i;
 
     printf("Tabuada\n");
@@ -311,6 +325,7 @@ RSDS-28.c
 #include <stdio.h>
 
 int main() {
+
     int i, soma = 0;
 
     printf("Soma de 1 a 100\n");
@@ -331,6 +346,7 @@ RSDS-29.c
 #include <stdio.h>
 
 int main() {
+
     int i;
 
     printf("Numeros Pares de 0 a 50\n");
@@ -350,6 +366,7 @@ RSDS-30.c
 #include <stdio.h>
 
 int main() {
+
     int n, i, fatorial = 1;
 
     printf("Fatorial\n");
@@ -370,6 +387,7 @@ RSDS-31.c
 #include <stdio.h>
 
 int main() {
+
     int i;
 
     printf("Contagem Regressiva\n");
@@ -387,6 +405,7 @@ RSDS-32.c
 #include <stdio.h>
 
 int main() {
+
     int i;
 
     printf("Quadrado de 1 a 10\n");
@@ -404,6 +423,7 @@ RSDS-33.c
 #include <stdio.h>
 
 int main() {
+
     int i;
 
     printf("Multiplos de 3\n");
@@ -423,6 +443,7 @@ RSDS-34.c
 #include <stdio.h>
 
 int main() {
+
     int primo, i, divisores = 0;
 
     printf("Numero Primo\n");
@@ -449,6 +470,7 @@ RSDS-35.c
 #include <stdio.h>
 
 int main() {
+
     int termos, a = 0, b = 1, prox, i;
 
     printf("Fibonacci\n");
@@ -473,6 +495,7 @@ RSDS-36.c
 #include <stdio.h>
 
 int main() {
+
     int cont = 1;
 
     printf("Contar ate 10 com while\n");
@@ -490,6 +513,7 @@ RSDS-37.c
 #include <stdio.h>
 
 int main() {
+
     int valor, total = 0;
 
     printf("Soma ate digitar 0\n");
@@ -515,6 +539,7 @@ RSDS-38.c
 #include <stdio.h>
 
 int main() {
+
     int senha = 0;
 
     printf("Senha Correta\n");
@@ -535,6 +560,7 @@ RSDS-39.c
 #include <stdio.h>
 
 int main() {
+
     int positivo = -1;
 
     printf("Numero Positivo\n");
@@ -555,6 +581,7 @@ RSDS-40.c
 #include <stdio.h>
 
 int main() {
+
     int tabuada, j = 1;
 
     printf("Tabuada com while\n");
@@ -575,6 +602,7 @@ RSDS-41.c
 #include <stdio.h>
 
 int main() {
+
     int numero, div = 1, qtd = 0;
 
     printf("Primo com while\n");
@@ -603,6 +631,7 @@ RSDS-42.c
 #include <stdio.h>
 
 int main() {
+
     int i, impar = 0, numDigitado;
 
     printf("Quantidade de Impares\n");
@@ -626,6 +655,7 @@ RSDS-43.c
 #include <stdio.h>
 
 int main() {
+
     int i = 1;
     int somaPares = 0;
 
@@ -648,6 +678,7 @@ RSDS-44.c
 #include <stdio.h>
 
 int main() {
+
     int digitos = 0, numeroDigitado;
 
     printf("Contar Digitos\n");
@@ -670,6 +701,7 @@ RSDS-45.c
 #include <stdio.h>
 
 int main() {
+
     int opcao = 0;
 
     printf("Menu\n");
@@ -690,6 +722,7 @@ RSDS-46.c
 #include <stdio.h>
 
 int main() {
+
     int i = 1;
 
     printf("Contar de 1 a 10\n");
@@ -708,6 +741,7 @@ RSDS-47.c
 #include <stdio.h>
 
 int main() {
+
     int numeroTabuada;
     int i = 1;
 
@@ -729,6 +763,7 @@ RSDS-48.c
 #include <stdio.h>
 
 int main() {
+
     int menu;
 
     printf("Menu com Sair\n");
@@ -754,6 +789,7 @@ RSDS-49.c
 #include <stdio.h>
 
 int main() {
+
     int senhaLab;
 
     printf("Senha Laboratorio\n");
@@ -774,6 +810,7 @@ RSDS-50.c
 #include <stdio.h>
 
 int main() {
+
     int deposito;
 
     printf("Numero Positivo Obrigatorio\n");
@@ -794,6 +831,7 @@ RSDS-51.c
 #include <stdio.h>
 
 int main() {
+
     int i = 10;
 
     printf("Contagem Regressiva\n");
@@ -812,6 +850,7 @@ RSDS-52.c
 #include <stdio.h>
 
 int main() {
+
     int numeroSoma, somaTotal = 0;
 
     printf("Soma ate multiplo de 10\n");
@@ -833,6 +872,7 @@ RSDS-53.c
 #include <stdio.h>
 
 int main() {
+
     char sair;
 
     printf("Confirmar Saida\n");
@@ -852,6 +892,7 @@ RSDS-54.c
 #include <stdio.h>
 
 int main() {
+
     int nivel;
 
     printf("Validar Numero\n");
@@ -872,6 +913,7 @@ RSDS-55.c
 #include <stdio.h>
 
 int main() {
+
     int maior = 0, numeroMaior;
 
     printf("Mostrar Maior Numero\n");
@@ -896,6 +938,7 @@ RSDS-56.c
 #include <stdio.h>
 
 int main() {
+
     int combo;
 
     printf("Fast Food\n");
@@ -929,6 +972,7 @@ RSDS-57.c
 #include <string.h>
 
 int main() {
+
     char cor[20];
 
     printf("Urso Eletronico\n");
@@ -953,6 +997,7 @@ RSDS-58.c
 #include <stdio.h>
 
 int main() {
+
     float num1, num2, resultado;
     char operador;
 
@@ -993,6 +1038,7 @@ RSDS-59.c
 #include <stdio.h>
 
 int main() {
+
     char direcao;
 
     printf("GPS\n");
@@ -1026,6 +1072,7 @@ RSDS-60.c
 #include <stdio.h>
 
 int main() {
+
     int dia;
 
     printf("Dias Uteis\n");
